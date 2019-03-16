@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+dist/
+.idea/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+tools/nginx-1.12.2/logs/*
+!tools/nginx-1.12.2/logs/.gitkeep
+tools/nginx-1.12.2/temp/**/*
+!tools/nginx-1.12.2/temp/.gitkeep
+
+# Editor directories and files
+.idea
+.vscode
+.vs
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
